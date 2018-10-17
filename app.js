@@ -35,6 +35,9 @@ app.get('/experiment', function(request, response){
 	response.render('QuestionnairePhase.html')
 });
 
+app.get('/debrief', function(request, response){
+	response.render('debrief.html')
+})
 
 // --- SAVING DATA
 app.post('/experiment-data', function(request, response){
